@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
+    flex-direction: column;
 }
 
 .profile {
@@ -49,6 +50,42 @@ body {
     .avatar {
         display: none !important;
     }
+}
+
+/* LINKS */
+
+a {
+    color: #89b4fa;
+}
+
+/* FOOTER DESIGN */
+
+.footer {
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 12px;
+}
+
+.footer .socials {
+    display: inline-flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer .socials a {
+    width: 32px;
+    height: 32px;
+}
+
+.footer .socials a svg {
+    fill: #cba6f7;
+    height: 100%;
+    width: 100%;
+}
+
+.footer .credit {
+    color: #a6adc8;
 }
 
 /* SCROLLBAR */
@@ -158,7 +195,7 @@ body {
 }
 
 .languages img,
-svg {
+.languages svg {
     height: 64px;
     border-radius: 6px;
 }
